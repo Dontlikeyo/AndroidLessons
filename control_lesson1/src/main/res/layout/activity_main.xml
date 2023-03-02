@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="235dp"
+        android:scaleType="fitStart"
+        app:srcCompat="@drawable/_81729_800" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="239dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eric Cartman"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="199dp"
+        tools:layout_editor_absoluteY="239dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="375dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="+7 (911)111-11-11"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="299dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="180dp"
+        android:layout_height="81dp"
+        app:srcCompat="@android:drawable/sym_action_call"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="364dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="90dp"
+        android:layout_height="81dp"
+        app:srcCompat="@android:drawable/sym_action_email"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="364dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="90dp"
+        android:layout_height="81dp"
+        app:srcCompat="@android:drawable/presence_video_online"
+        tools:layout_editor_absoluteX="301dp"
+        tools:layout_editor_absoluteY="364dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:text="Edit"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="457dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:text="Block this Caller"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="667dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:text="Create New Contact"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="619dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:text="Share Contact"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="563dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mute"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="513dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yes or No"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="510dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

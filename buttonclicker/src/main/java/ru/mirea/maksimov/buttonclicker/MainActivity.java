@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
                 checkBox1.setChecked(!checkBox1.isChecked());
             }
         };
+        //
         btnWhoAmI.setOnClickListener(oclBtnWhoAmI);
     }
     public void onMyButtonClick (View view){

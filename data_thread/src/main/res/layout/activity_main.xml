@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/runOnUiThreadView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="runOnUiThread:
+Этот метод позволяет выполнить код на главном (UI) потоке.
+Он принимает в качестве параметра объект Runnable, который содержит код, который нужно выполнить на главном потоке.
+Когда вызывается runOnUiThread, переданный Runnable выполнится синхронно на главном потоке, что позволяет обновить элементы пользовательского интерфейса." />
+
+        <TextView
+            android:id="@+id/postDelayeadView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="postDelayed:
+Этот метод позволяет разместить Runnable объект в очереди сообщений главного (UI) потока с задержкой в указанное количество времени.
+Он принимает в качестве параметров объект Runnable и время задержки в миллисекундах.
+После заданной задержки, Runnable будет выполнен на главном потоке." />
+
+        <TextView
+            android:id="@+id/postView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="post:
+Этот метод позволяет разместить Runnable объект в очереди сообщений главного (UI) потока для выполнения в ближайшее свободное время.
+Он принимает в качестве параметра объект Runnable.
+Runnable будет выполнен на главном потоке, как только главный поток будет готов к выполнению новой задачи.
+Позволяет выполнить код на главном потоке без задержки." />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
